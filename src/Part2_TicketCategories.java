@@ -5,7 +5,7 @@ public class Part2_TicketCategories {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
+System.out.println("Enter 10 ticket categories:");
         ArrayList<String> allTickets = new ArrayList<>();
         HashSet<String> uniqueTickets = new HashSet<>();
         HashMap<String, Integer> countMap = new HashMap<>();
